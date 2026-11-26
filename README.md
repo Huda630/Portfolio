@@ -6,19 +6,22 @@ Premium portfolio website for **Nada Ismail**, AI Engineer specializing in **Age
 >
 > Open to remote roles and freelance work.
 
-## Live Sections
+## Sections
 
-- **Hero** — Introduction, availability, and an interactive multi-agent workflow diagram
-- **About** — Focus on agentic AI, multi-agent systems, LLM applications, and automation
-- **Technical Skills** — AI Engineering, Development, and Tools & Infrastructure
-- **Featured Projects** — Expandable case studies with architecture flows:
-  - AI Operations Manager
-  - Multi-Agent RFP Automation System
-  - AI Financial Analyst and Forecasting System
-  - Enterprise Customer Support Agent
-  - Haven & Home AI Strategic Decision System
-- **Engineering Approach** — Problem Understanding → Research → Architecture → Development → Integration → Testing → Evaluation
-- **Contact** — "Have a Problem Worth Solving?"
+- **Home** — Introduction and availability, with a single Connect on LinkedIn call to action
+- **About** — A concise first-person introduction to her focus and engineering approach
+- **Technical Skills** — AI Engineering, Development, and Tools & Infrastructure, presented as badges
+- **Portfolio — "Systems in action."** — A featured project with two more revealed on demand, each with a dedicated case study page:
+  - **Nova — Enterprise Customer Support & Operations Resolver** (featured) — Python · LangGraph · LangChain · FastAPI · SQLite
+  - **AI Operations Manager** — LangChain · LangGraph · OpenRouter · Gmail API · Google Calendar API · Python
+  - **AI-Powered RFP Automation** — Pinecone · Embeddings · RAG · Semantic Search
+- **Blog — "Thoughts & Insights"** — Editorial-style articles on AI engineering, each with its own page:
+  - Why Multi-Agent Systems Beat One Big Prompt
+  - RAG, Done Right: Retrieval Is a Gate, Not a Search Box
+  - The LLM Should Never Do the Math
+  - Designing Agents That Know When to Escalate
+  - From Problem to Working System: A 7-Step Engineering Approach
+- **Contact** — "Have a Problem Worth Solving?" with a single Connect on LinkedIn button
 
 ## Connect
 
@@ -29,9 +32,10 @@ Premium portfolio website for **Nada Ismail**, AI Engineer specializing in **Age
 This is a dependency-free static website: a single self-contained `index.html` with inline CSS and JavaScript. No build step is required, which keeps it fast, easy to maintain, and simple to deploy anywhere.
 
 - Semantic, accessible HTML
-- Responsive design (desktop and mobile)
-- SEO metadata and Open Graph social sharing tags
-- Smooth scrolling, subtle entrance animations, interactive project cards, expandable case studies, and interactive workflow diagrams
+- Responsive design (desktop, tablet, and mobile)
+- SEO metadata, Open Graph tags, and structured data for the blog
+- Hash-based routing for blog articles (`#blog/<article>`) and case studies (`#case/<project>`), so every article and case study has its own URL
+- Smooth scrolling, subtle entrance animations, and an emerald-on-charcoal premium design system
 
 ## Run Locally
 
